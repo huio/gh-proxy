@@ -41,7 +41,7 @@ github release、archive以及项目文件的加速项目，支持clone，有Clo
 
 `index.js`默认配置下clone走github.com.cnpmjs.org，项目文件会走jsDeliver，如需走worker，修改Config变量即可
 
-`ASSET_URL`是静态资源的url（实际上就是现在显示出来的那个输入框单页面）
+`ASSET_URL`是静态资源的url（实际上就是现在显示出来的那个输入框单页面），可fork本项目，然后修改index.html内`body`标签的第一个`a`标签内的`href`属性
 
 `PREFIX`是前缀，默认（根路径情况为"/"），如果自定义路由为example.com/gh/*，请将PREFIX改为 '/gh/'，注意，少一个杠都会错！
 
